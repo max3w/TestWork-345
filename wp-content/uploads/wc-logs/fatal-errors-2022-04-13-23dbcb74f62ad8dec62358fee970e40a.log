@@ -1,0 +1,113 @@
+2022-04-13T10:24:28+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:108
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_fields('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(57): do_action('woocommerce_bef...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template-loader.php(106): include('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-blog-header.php(19): require_once('/var/www/mailho...')
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/index.php(17): require('/var/www/mailho...')
+#7 {main}
+  thrown в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 108
+
+2022-04-13T10:25:33+00:00 CRITICAL Cannot redeclare add_to_custom_fields() (previously declared in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:106) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 120
+
+2022-04-13T10:49:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_upload_iframe_src() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:154
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_form('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(57): do_action('woocommerce_bef...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template-loader.php(106): include('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-blog-header.php(19): require_once('/var/www/mailho...')
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/index.php(17): require('/var/www/mailho...')
+#7 {main}
+  thrown в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 154
+
+2022-04-13T12:12:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_stylesheet_directory_url() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:4
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_custom_photo('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/script-loader.php(2115): do_action('wp_enqueue_scri...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/general-template.php(3042): do_action('wp_head') в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 4
+
+2022-04-13T12:14:51+00:00 CRITICAL Uncaught Error: Call to undefined function admin_enqueue_scripts() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:5
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_custom_photo('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/script-loader.php(2115): do_action('wp_enqueue_scri...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/general-template.php(3042): do_action('wp_head')
+#8 /va в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 5
+
+2022-04-13T12:15:17+00:00 CRITICAL Uncaught Error: Call to undefined function wp_admin_enqueue_scripts() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:5
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_custom_photo('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/script-loader.php(2115): do_action('wp_enqueue_scri...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/general-template.php(3042): do_action('wp_head')
+#8  в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 5
+
+2022-04-13T12:27:21+00:00 CRITICAL Cannot redeclare my_update_record() (previously declared in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:109) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 109
+
+2022-04-13T12:29:02+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 155
+
+2022-04-13T12:29:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_to_custom_form(), 0 passed in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php on line 136 and exactly 1 expected in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:107
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php(136): add_to_custom_form()
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_form('')
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(57): do_action('woocommerce_bef...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template-loader.php(106): include('/var/www/mailho...')
+#6 /var/www/ma в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 107
+
+2022-04-13T12:34:16+00:00 CRITICAL Uncaught Error: Call to undefined function create_product() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:109
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_form('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(57): do_action('woocommerce_bef...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template-loader.php(106): include('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-blog-header.php(19): require_once('/var/www/mailho...')
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/index.php(17): require('/var/www/mailho...')
+#7 {main}
+  thrown в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 109
+
+2022-04-13T12:52:20+00:00 CRITICAL syntax error, unexpected end of file в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 137
+
+2022-04-13T13:29:00+00:00 CRITICAL syntax error, unexpected 'Name' (T_STRING), expecting ')' в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 117
+
+2022-04-13T15:00:27+00:00 CRITICAL syntax error, unexpected ')' в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 152
+
+2022-04-13T15:01:03+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 150
+
+2022-04-13T15:02:23+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 150
+
+2022-04-13T15:02:35+00:00 CRITICAL syntax error, unexpected '=' в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 150
+
+2022-04-13T15:02:58+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 150
+
+2022-04-13T16:00:39+00:00 CRITICAL Uncaught Error: Call to undefined function media_sideload_image() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:164
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_form('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(57): do_action('woocommerce_bef...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template-loader.php(106): include('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-blog-header.php(19): require_once('/var/www/mailho...')
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/index.php(17): require('/var/www/mailho...')
+#7 {main}
+  thrown в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 164
+

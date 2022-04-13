@@ -1,0 +1,102 @@
+2022-04-12T17:25:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:33
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_fields('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template.php(772): require('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/mailho...', false)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content',  в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 33
+
+2022-04-12T17:26:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:34
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_fields('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template.php(772): require('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/mailho...', false)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content',  в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 34
+
+2022-04-12T17:29:41+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:34
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_fields('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template.php(772): require('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/mailho...', false)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content',  в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 34
+
+2022-04-12T18:04:04+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 28
+
+2022-04-12T18:04:11+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 28
+
+2022-04-12T18:04:16+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 28
+
+2022-04-12T18:04:29+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:26
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-settings.php(555): include()
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-config.php(95): require_once('/var/www/mailho...')
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-load.php(50): require_once('/var/www/mailho...')
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-admin/admin.php(34): require_once('/var/www/mailho...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-admin/theme-editor.php(10): require_once('/var/www/mailho...')
+#5 {main}
+  thrown в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 26
+
+2022-04-12T19:06:17+00:00 CRITICAL syntax error, unexpected '=', expecting ')' в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 28
+
+2022-04-12T19:24:28+00:00 CRITICAL syntax error, unexpected '_custom_product_date_field' (T_STRING), expecting ')' в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 26
+
+2022-04-12T19:27:35+00:00 CRITICAL syntax error, unexpected ''),' (T_CONSTANT_ENCAPSED_STRING), expecting ')' в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 27
+
+2022-04-12T19:34:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_date() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:57
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_fields('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template.php(772): require('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/mailho...', false)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 57
+
+2022-04-12T19:34:37+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_datetime() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:57
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_fields('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template.php(772): require('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/mailho...', false)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_ в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 57
+
+2022-04-12T19:34:44+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_time() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:57
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): add_to_custom_fields('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/template.php(772): require('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/mailho...', false)
+#6 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 57
+
+2022-04-12T21:31:32+00:00 CRITICAL Uncaught Error: Call to undefined function post_meta() in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:35
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): custom_product_options('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(73): do_action('woocommerce_pro...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 /var/www/mailhostpr в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 35
+
+2022-04-12T21:35:09+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php:36
+Stack trace:
+#0 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(307): custom_product_options('')
+#1 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /var/www/mailhostpro/data/www/twp.pp.ua/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(73): do_action('woocommerce_pro...')
+#4 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/var/www/mailho...')
+#5 /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(51): WC_Meta_Box_Product_Data::output_tabs()
+#6 /var/www/mailho в /var/www/mailhostpro/data/www/twp.pp.ua/wp-content/themes/storefront-child/functions.php на строке 36
+
